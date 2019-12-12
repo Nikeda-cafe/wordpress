@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* 
+Theme Name: MYTHEME
+Author: CATWALK
+Description: オリジナルテーマです
+Version: 1.0
+*/
+.alignleft{
+    float: left;
+    margin-right: 1em;
+    margin-left: 0;
+}
+.alignright{
+    float: right;
+    margin-right: 0;
+    margin-left: 1em;
+}
+h2{
+    clear: both;
+}
+.wp-block-categories.aligncenter{
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center
+}
+.aligncenter{
+    margin: 0 auto;
+}
+body, body *,body *::after{
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+/* 変数 */
+:root{
+    --f1: 2.44em;
+    --f2: 1.95em;
+    --f3: 1.56em;
+    --f4: 1.25em;
+    --f5: 1em;
+    --f6: 0.8em;
+
+    --basecolor: #63a211;
+    --basetb: 30px;
+}
+
+h1{
+    font-size: var(--f1);
+}
+p{
+    line-height: 1.8;
+    font-size: var(--f5);
+}
+h2{
+    border-left: 14px solid var(--basecolor);
+    padding-left: 14px;
+    margin: var(--basetb) 0;
+}
+
+
+
