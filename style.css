@@ -59,6 +59,8 @@ h2{
     padding-left: 14px;
     margin: var(--basetb) 0;
 }
-
+h6{
+    font-size: var(--f6);
+}
 
 
