@@ -66,6 +66,7 @@ body{
     --basecolor: #63a211;
     --basetb: 30px;
 }
+/* メンバーBが変更 ｂ*/
 
 h1{
     font-size: var(--f1);
