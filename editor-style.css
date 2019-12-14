@@ -1,6 +1,9 @@
 body,#post-title-0{
     font-family: sans-serif;
 }
+.wp-block{
+    max-width: calc(720px + 30px);
+}
 /* 変数 */
 :root{
     --f1: 2.44em;

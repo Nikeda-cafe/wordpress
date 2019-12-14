@@ -33,6 +33,16 @@ body, body *,body *::after{
 }
 body{
     font-family: sans-serif;
+    margin: 0;
+}
+.mycontainer{
+    margin: 0 10px;
+}
+@media (min-width: 760px){
+    .mycontainer{
+        max-width: 720px;
+        margin: 0 auto;
+    }
 }
 /* 変数 */
 :root{
