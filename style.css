@@ -18,12 +18,22 @@ Version: 1.0
 h2{
     clear: both;
 }
-.wp-block-categories.aligncenter{
+.post-categories{
     text-align: center;
     list-style: none;
     padding: 0;
     display: flex;
     justify-content: center
+}
+.post-categories li:not(first-child){
+    margin-left: 10px;
+}
+.post-categories a{
+    border: 1px solid var(--basecolor);
+    border-radius: 10px;
+    padding: 5px 10px;
+    color: var(--basecolor);
+    font-size: var(--f6);
 }
 .aligncenter{
     margin: 0 auto;
@@ -76,3 +86,15 @@ h6{
 /* git直接コミット */
 /* git 差分 */
 /* チームメンバーAが変更 */
+.myposthead{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+a:hover{
+    opacity: 0.7;
+}
