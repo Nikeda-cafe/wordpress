@@ -10,7 +10,17 @@ function mytheme_setup(){
     //エディタ用css
     add_theme_support("editor-styles");
     add_editor_style("editor-style.css");
+
+    //title出力
+    add_theme_support("title-tag");
+
+    //link,style,scriptのHTML５適用
+    add_theme_support("html5",array(
+        "style",
+        "script"
+    ));
 }
+
 add_action( 'after_setup_theme', 'mytheme_setup');
 function mytheme_enqueue(){
     //テーマCSS
