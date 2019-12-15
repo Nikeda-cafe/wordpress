@@ -23,7 +23,10 @@ h2{
     list-style: none;
     padding: 0;
     display: flex;
-    justify-content: center
+    justify-content: center;
+}
+.post-categories li{
+    align-self: center;
 }
 .post-categories li:not(:first-child){
     margin-left: 10px;
@@ -107,14 +110,42 @@ a:hover{
 /*【4-3】 前後記事のリンク */
 .nav-links{
     display: flex;
-    margin-left: 30px 0;
+    margin-left: var(--basetb) 0;
     font-size: var(--f6);
 }
 .nav-previous{
+    display: flex;
     flex: 1;
+    align-items: center;
 }
 .nav-next{
+    display: flex;
     flex: 1;
     margin-left: 10px;
     text-align: right;
+    align-items: center;
+    justify-content: flex-end;
+}
+/* 【4-4】アイコンフォント */
+.post-categories::before{
+    content: "\f318";
+    font-family: "dashicons";
+    margin-right: 5px;
+    color: var(--basecolor);
+    font-size: var(--f2);
+    line-height: 1.2;
+}
+.nav-previous::before{
+    content: "\f341";
+    margin-right: 5px;
+}
+.nav-next::after{
+    content: "\f345";
+    margin-left: 5px;
+}
+.nav-previous::before,.nav-next::after{
+    font-family: "dashicons";
+    vertical-align: 1;
+    font-size: var(--f2);
+    color: var(--basecolor);
 }

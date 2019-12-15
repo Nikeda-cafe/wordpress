@@ -14,7 +14,7 @@
                 <?php the_category(); ?>
                 <h1><?php the_title(); ?></h1>
                 <time datetime="<?php echo get_the_date(DATE_W3C) ?>">
-                    <?php echo date("Y年m月d日"); ?>
+                    <?php $date = new DateTime("2019-12-14"); echo $date -> format("Y年m月d日"); ?>
                 </time>
             </div>
             <?php the_content(); ?>
