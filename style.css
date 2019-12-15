@@ -25,7 +25,7 @@ h2{
     display: flex;
     justify-content: center
 }
-.post-categories li:not(first-child){
+.post-categories li:not(:first-child){
     margin-left: 10px;
 }
 .post-categories a{
@@ -45,6 +45,8 @@ body{
     font-family: sans-serif;
     margin: 0;
 }
+
+/* 【3-7】記事の横幅 */
 .mycontainer{
     margin: 0 10px;
 }
@@ -54,6 +56,7 @@ body{
         margin: 0 auto;
     }
 }
+
 /* 変数 */
 :root{
     --f1: 2.44em;
@@ -87,6 +90,8 @@ h6{
 /* git直接コミット */
 /* git 差分 */
 /* チームメンバーAが変更 */
+
+/* 【4-2】カテゴリ */
 .myposthead{
     text-align: center;
     padding-top: 20px;
@@ -98,4 +103,18 @@ a{
 }
 a:hover{
     opacity: 0.7;
+}
+/*【4-3】 前後記事のリンク */
+.nav-links{
+    display: flex;
+    margin-left: 30px 0;
+    font-size: var(--f6);
+}
+.nav-previous{
+    flex: 1;
+}
+.nav-next{
+    flex: 1;
+    margin-left: 10px;
+    text-align: right;
 }
