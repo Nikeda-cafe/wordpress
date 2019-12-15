@@ -70,6 +70,8 @@ body{
     --basecolor: #63a211;
     --basetb: 30px;
     --basegr: radial-gradient( circle 785px at 10.5% 38.9%,  rgba(29,142,20,1) 0.4%, rgba(113,227,85,1) 98.1% );
+
+    --myfont: 'Inria Serif', serif;
 }
 /* メンバーBが変更 ｂ*/
 
@@ -152,6 +154,7 @@ a:hover{
 /* ヘッダー */
 .myhead a{
     font-size: var(--f3);
+    font-family: var(--myfont);
 }
 .myhead p{
     font-size: var(--f5);
@@ -171,4 +174,5 @@ a:hover{
     color: white;
     padding: 20px 0;
     font-size: var(--f3);
+    font-family: var(--myfont);
 }

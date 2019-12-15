@@ -23,6 +23,14 @@ function mytheme_setup(){
 
 add_action( 'after_setup_theme', 'mytheme_setup');
 function mytheme_enqueue(){
+    // google font読み込み
+    wp_enqueue_style(
+        "myfonts",
+        "https://fonts.googleapis.com/css?family=Inria+Serif:300,700&display=swap",
+        array(),
+        null
+    );
+    
     // dashiconsの読み込み
     wp_enqueue_style(
         "dashicons"
