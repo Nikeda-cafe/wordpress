@@ -15,6 +15,10 @@ Version: 1.0
     margin-right: 0;
     margin-left: 1em;
 }
+img{
+    max-width: 100%;
+    height: auto;
+}
 h2{
     clear: both;
 }
