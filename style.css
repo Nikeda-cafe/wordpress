@@ -186,3 +186,27 @@ a:hover{
     font-size: var(--f3);
     font-family: var(--myfont);
 }
+
+/* 5-4home.phpの2カラムレイアウト */
+.mypostlist{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.mypostlist article{
+    width: 48%;
+    margin-bottom: var(--basetb);
+}
+.mypostlist figure{
+    margin: 0;
+}
+.mypostlist h2{
+    margin: 0;
+    padding: 0;
+    font-size: var(--f5);
+    border: none;
+}
+.mypostlist img{
+    height: 180px;
+    object-fit: cover;
+}
