@@ -23,5 +23,4 @@
             'next_text' => '<span class="screen-reader-text">次へ</span><span class="dashicons dashicons-redo"></span>'   
         ) ); ?>
     </main>
-    <p>xxx</p>
 <?php get_footer(); ?>
