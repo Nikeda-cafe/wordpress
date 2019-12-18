@@ -18,5 +18,9 @@
                 </article>
             <?php endwhile; endif; ?>
         </div>
+        <?php the_posts_pagination(array(
+            'prev_text' => '<span class="dashicons dashicons-undo"></span><span class="screen-reader-text">前へ</span',
+            'next_text' => '<span class="screen-reader-text">次へ</span><span class="dashicons dashicons-redo"></span>'   
+        ) ); ?>
     </main>
 <?php get_footer(); ?>

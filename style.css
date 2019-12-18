@@ -210,3 +210,20 @@ a:hover{
     height: 180px;
     object-fit: cover;
 }
+/* 5-5 */
+.pagination .nav-links{
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.pagination .page-numbers:not(:last-child){
+    margin-right: 15px;
+}
+.pagination a{
+    color: var(--basecolor);
+}
+.pagination .current{
+    color: #aaaaaa;
+}
+.screen-reader-text{
+    display: none;
+}
