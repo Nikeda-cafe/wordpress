@@ -1,7 +1,7 @@
 body,#post-title-0{
     font-family: sans-serif;
 }
-.wp-block{
+.wp-block:not([data-align="full"]):not([data-align="wide"]){
     max-width: calc(720px + 30px);
 }
 /* 変数 */
