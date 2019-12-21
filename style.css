@@ -69,11 +69,11 @@ body{
         max-width: 720px;
         margin: 0 calc((100vw - 720px) /2);
     }
-    .wp-block-image.alignfull{
+    .alignfull{
         margin: 0 calc( (100vw - 720px)/2 *-1);
 
     }
-    .wp-block-image.alignwide{
+    .alignwide{
         margin: 0 calc((100vw - 720px)/4*-1);
         max-width: none;
     }
@@ -81,6 +81,9 @@ body{
 @media (min-width: 1360px){
     .wp-block-image.alignwide{
         margin: 0 -150px;
+    }
+    .mycontainer{
+        max-width: 720px;
     }
 }
 /* 変数 */
@@ -192,7 +195,8 @@ a:hover{
 .myhead p{
     font-size: var(--f5);
 }
-.myhead{
+/* 6-4 */
+.myhead >div{
     display: flex;
     justify-content: space-between;
     align-items: center;

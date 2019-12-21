@@ -9,6 +9,8 @@
 <body <?php body_class(); ?>>
     <?php wp_body_open(); ?>
     <header class="myhead mycontainer">
-        <a href="<?php echo home_url("/"); ?>"><?php bloginfo("name") ?></a> 
-        <p><?php bloginfo("description") ?></p>
+        <div class="alignwide">
+            <a href="<?php echo home_url("/"); ?>"><?php bloginfo("name") ?></a> 
+            <p><?php bloginfo("description") ?></p>
+        </div>
     </header>
