@@ -73,6 +73,15 @@ body{
         margin: 0 calc( (100vw - 720px)/2 *-1);
 
     }
+    .wp-block-image.alignwide{
+        margin: 0 calc((100vw - 720px)/4*-1);
+        max-width: none;
+    }
+}
+@media (min-width: 1360px){
+    .wp-block-image.alignwide{
+        margin: 0 -150px;
+    }
 }
 /* 変数 */
 :root{

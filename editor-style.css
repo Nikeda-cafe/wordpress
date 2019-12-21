@@ -4,6 +4,9 @@ body,#post-title-0{
 .wp-block:not([data-align="full"]):not([data-align="wide"]){
     max-width: calc(720px + 30px);
 }
+.wp-block[data-align="wide"]{
+    max-width: calc(1020px + 30px);
+}
 /* 変数 */
 :root{
     --f1: 2.44em;
