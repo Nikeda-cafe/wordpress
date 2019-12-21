@@ -5,6 +5,9 @@ Author: CATWALK
 Description: オリジナルテーマです
 Version: 1.0
 */
+:root{
+    --myw: 720px;
+}
 .alignleft{
     float: left;
     margin-right: 1em;
@@ -55,13 +58,22 @@ body{
 .mycontainer{
     margin: 0 10px;
 }
+/* 6-2 */
+.wp-block-image.alignfull{
+    margin: 0 -10px;
+    max-width: none;
+    width: auto;
+}
 @media (min-width: 760px){
     .mycontainer{
         max-width: 720px;
-        margin: 0 auto;
+        margin: 0 calc((100vw - 720px) /2);
+    }
+    .wp-block-image.alignfull{
+        margin: 0 calc( (100vw - 720px)/2 *-1);
+
     }
 }
-
 /* 変数 */
 :root{
     --f1: 2.44em;
@@ -76,6 +88,8 @@ body{
     --basegr: radial-gradient( circle 785px at 10.5% 38.9%,  rgba(29,142,20,1) 0.4%, rgba(113,227,85,1) 98.1% );
 
     --myfont: 'Inria Serif', serif;
+    /* 標準幅 */
+    --myw: 720px;
 }
 /* メンバーBが変更 ｂ*/
 
@@ -226,4 +240,9 @@ a:hover{
 }
 .screen-reader-text{
     display: none;
+}
+/* 6-2 */
+.wp-block-image{
+    margin: 0;
+    margin-bottom: 1em;
 }
