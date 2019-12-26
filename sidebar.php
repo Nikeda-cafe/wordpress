@@ -1,6 +1,6 @@
 <aside class="mymenu">
     <div class="mycontainer">
-        <div class="alignwide">
+        <div class="alignwide mymenu-columns">
             <section class="myprofile">
                 <h2>PROFILE</h2>
                 <figure>
@@ -10,9 +10,9 @@
                 <p><?php the_author_meta('description') ?></p>
             </section>
             <?php
-                if (is_active_sidebar("sidebar-1")):
+                if (is_active_sidebar("sidebar-1")){
                     dynamic_sidebar("sidebar-1"); 
-                endif; 
+                }
             ?>
         </div>
     </div>
