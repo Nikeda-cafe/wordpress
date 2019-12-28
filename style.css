@@ -311,3 +311,7 @@ a:hover{
         break-inside: avoid;
     }
 }
+/* 8-2メディア文章の余白処理 */
+.mymargin{
+    margin: var(--basetb) 0;
+}
