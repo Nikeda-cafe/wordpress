@@ -326,3 +326,20 @@ a:hover{
     background-color: orange;
     cursor: pointer;
 }
+/* 8-4ナビゲーションメニュー */
+.mynav{
+    background-image: var(--basegr);
+}
+.menu{
+    display: flex;
+    justify-content: start;
+    padding: 10px 0;
+    list-style: none;
+    
+    color: white;
+    font-family: var(--myfont);
+    margin: 0;
+}
+.menu>li:not(:last-child){
+    padding-right: 20px;
+}

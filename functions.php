@@ -23,6 +23,10 @@ function mytheme_setup(){
     add_theme_support("post-thumbnails");
     // 全幅・幅広有効化
     add_theme_support("align-wide");
+    // メニューの表示
+    register_nav_menus( array(
+        "primary"=>"ナビゲーション"
+    ) );
 }
 
 add_action( 'after_setup_theme', 'mytheme_setup');
