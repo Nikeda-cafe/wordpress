@@ -6,7 +6,6 @@
                 <p><?php echo esc_html( strtoupper(get_post_field('post_name')) ) ?></p>
             </div>
             <?php the_content(); ?>
-            <?php the_post_navigation(); ?>
         </article>
     <?php endwhile; endif; ?>
     <?php get_sidebar(); ?>

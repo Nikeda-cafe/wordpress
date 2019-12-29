@@ -315,3 +315,14 @@ a:hover{
 .mymargin{
     margin: var(--basetb) 0;
 }
+/* 8-3フォームデザイン */
+.wpcf7-form-control{
+    width: 100%;
+    padding: 10px;
+}
+.wpcf7-submit{
+    width: 250px;
+    border: none;
+    background-color: orange;
+    cursor: pointer;
+}
