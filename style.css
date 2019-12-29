@@ -343,3 +343,32 @@ a:hover{
 .menu>li:not(:last-child){
     padding-right: 20px;
 }
+/* 9-1関連記事 */
+.myrelated{
+    border: 2px solid var(--basecolor);
+    padding: 15px;
+    margin: var(--basetb) 0px;
+}
+.myrelated > h2{
+    margin: 0;
+    margin-bottom: 10px;
+    border-left: 5px solid var(--basecolor);
+    color: var(--basecolor);
+}
+.myrelated img{
+    height: 120px;
+}
+.myrelated .mypostlist article{
+    margin-bottom: 0;
+}
+@media(min-width: 760px){
+    .myrelated article{
+        width: 24%;
+    }
+    .myrelated .mypostlist{
+        justify-content: flex-start;
+    }
+    .myrelated article:not(:last-child){
+        margin-right: calc(4%/3);
+    }
+}
