@@ -59,7 +59,7 @@ body{
     margin: 0 10px;
 }
 /* 6-2 */
-.wp-block-image.alignfull{
+.alignfull{
     margin: 0 -10px;
     max-width: none;
     width: auto;
