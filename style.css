@@ -372,3 +372,26 @@ a:hover{
         margin-right: calc(4%/3);
     }
 }
+/* 9-3snsアイコン */
+.myshare .twitter{
+    color: #1da1f2;
+}
+.myshare .facebook{
+    color: #3b5998;
+}
+.myshare a{
+    width: 49%;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid currentColor;
+}
+.myshare h2{
+    color: var(--basecolor);
+    border: none;
+    text-align: center;
+    line-height: 1.2;
+    font-size: var(--f3);
+}
+.myshare{
+    margin: 60px 0;
+}

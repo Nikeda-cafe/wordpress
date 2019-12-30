@@ -11,7 +11,6 @@
         <meta property="og:title" content="<?php the_title(); ?>">
         <meta property="og:url" content="<?php the_permalink(); ?>">
         <meta property="og:description" content="<?php wp_strip_all_tags(get_the_excerpt()) ?>">
-
         <?php if(has_post_thumbnail()){ ?>
             <?php $img = get_post_thumbnail_id(); ?>
             <meta property='og:image' content='<?php echo esc_url(wp_get_attachment_url( $img )) ?>'>

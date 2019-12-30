@@ -9,6 +9,19 @@
                 </time>
             </div>
             <?php the_content(); ?>
+            <aside class="myshare">
+                <h2><span class="dashicons dashicons-share"></span>SHARE</h2>
+                <div class="mypostlist">
+                    <a href="" class="twitter">
+                        <span class="dashicons dashicons-twitter"></span>
+                        <span class="screen-reader-text">Twitter</span>
+                    </a>
+                    <a href="" class="facebook">
+                        <span class="dashicons dashicons-facebook"></span>
+                        <span class="screen-reader-text">Facebook</span>
+                    </a>
+                </div>
+            </aside>
             <?php the_post_navigation(); ?>
             <aside class="myrelated">
                 <h2>RELATED</h2>
