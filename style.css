@@ -312,7 +312,7 @@ a:hover{
     }
 }
 /* 8-2メディア文章の余白処理 */
-.mymargin{
+.wp-block-media-text.is-stacked-on-mobile.mymargin{
     margin: var(--basetb) 0;
 }
 /* 8-3フォームデザイン */
@@ -394,4 +394,30 @@ a:hover{
 }
 .myshare{
     margin: 60px 0;
+}
+/* 9-5 */
+@media(min-width:1320px){
+    .mycols{
+        display: flex;
+        margin: 50px calc((100vw - 1020px)/2);
+        justify-content: space-between;
+    }
+    .mycols .mycontent{
+        width: 68%;
+    }
+    .mycols .mymenu{
+        width: 26%;
+        margin-top: 0;
+        padding: 10px;
+    }
+    .mycols .mymenu-columns{
+        columns: 1;
+    }
+    .mycols .mycontainer,
+    .mycols .alignfull,
+    .mycols .alignwide{
+        margin: 0;
+        width: auto;
+        max-width: none;
+    }
 }

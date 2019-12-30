@@ -1,3 +1,6 @@
+</div>
+<!-- 2カラムレイアウト 左側部分 end -->
+<!-- 2カラムレイアウト 右側部分 start -->
 <aside class="mymenu">
     <div class="mycontainer">
         <div class="alignwide mymenu-columns">
@@ -17,3 +20,6 @@
         </div>
     </div>
 </aside>
+<!-- 2カラムレイアウト 右側部分 end -->
+</div>
+<!-- 2カラムflex親要素 end-->
