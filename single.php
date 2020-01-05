@@ -35,7 +35,7 @@
                         if($posts){
                             foreach($posts as $post){
                                 setup_postdata( $post ) ?>
-                                <article>
+                                <article <?php post_class() ?>>
                                     <a href="<?php the_permalink(); ?>">
                                     <?php if(has_post_thumbnail()){ ?>
                                         <figure>
