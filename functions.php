@@ -30,8 +30,8 @@ function mytheme_setup(){
     // 2段組みレイアウト有効化
     add_theme_support( "mycols" );
 }
-
 add_action( 'after_setup_theme', 'mytheme_setup');
+
 function mytheme_enqueue(){
     // google font読み込み
     wp_enqueue_style(
@@ -52,6 +52,14 @@ function mytheme_enqueue(){
         get_stylesheet_uri(),
         array(),
         filemtime(get_theme_file_path("style.css"))
+    );
+    wp_enqueue_script( 
+        "jQuery",
+        'http://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js'
+    );
+    wp_enqueue_script( 
+        "mytheme-script",
+        get_stylesheet_directory_uri()."/script.js",
     );
 }
 add_action("wp_enqueue_scripts","mytheme_enqueue");

@@ -5,4 +5,5 @@
         </main>
     <?php }} ?>
     <?php get_sidebar(); ?>
+<p><?php echo get_stylesheet_directory_uri(); ?></p>
 <?php get_footer(); ?>
