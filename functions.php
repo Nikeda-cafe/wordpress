@@ -32,6 +32,12 @@ function mytheme_setup(){
 }
 add_action( 'after_setup_theme', 'mytheme_setup');
 
+add_filter("document_title_separator","separator");
+function separator($sepa){
+    $sepa = '|';
+    return $sepa;
+}
+
 function mytheme_enqueue(){
     // google font読み込み
     wp_enqueue_style(
@@ -74,3 +80,8 @@ function mytheme_widgets(){
     ));
 }
 add_action("widgets_init", "mytheme_widgets");
+
+function naoto($i){
+    $i++;
+    return $i;
+}

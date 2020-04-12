@@ -25,5 +25,6 @@
             'next_text' => '<span class="screen-reader-text">次へ</span><span class="dashicons dashicons-redo"></span>'   
         ) ); ?>
     </main>
+    <p><?php echo naoto(3); ?></p>
     <?php get_sidebar(); ?>
 <?php get_footer(); ?>

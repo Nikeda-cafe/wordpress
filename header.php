@@ -44,3 +44,4 @@
     <div <?php if(current_theme_supports("mycols") && !is_front_page()){ ?> class="mycols"> <?php } ?>
         <!-- 2カラムレイアウト 左側部分 start -->
         <div class="mycontent">
+        
