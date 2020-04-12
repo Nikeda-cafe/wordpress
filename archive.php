@@ -32,3 +32,5 @@
     <?php get_sidebar(); ?>
 <?php get_footer(); ?>
 <?php get_templete_part("x"); ?>
+<?php get_templete_part("y"); ?>
+
